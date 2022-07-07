@@ -2,7 +2,6 @@ import { Suspense } from 'react';
 import { useRoutes } from 'react-router';
 import routes from '@/router';
 import Loading from '@/components/loading';
-import { Button } from 'antd';
 import './App.less';
 
 function App() {
