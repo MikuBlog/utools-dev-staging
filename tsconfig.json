@@ -27,9 +27,13 @@
     "resolveJsonModule": true,
     "isolatedModules": true, //开启后会将每个文件作为单独的模块使用
     "noEmit": true, //当发生编译错误的时候，编译器不会生成js代码
-    "jsx": "react-jsx" //允许编译器支持编译react代码
+    "jsx": "react-jsx", //允许编译器支持编译react代码
+    "types": [
+      "utools-api-types"
+    ]
   },
   "include": [
-    "src"
+    "src",
+    "./**/*.ts"
   ]
 }
